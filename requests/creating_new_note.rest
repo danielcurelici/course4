@@ -1,0 +1,21 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "Yet another new note from Code",
+    "important": true
+}
+###
+
+DELETE http://localhost:3001/api/notes/64145c47547146066b2bde0c
+###
+
+PUT http://localhost:3001/api/notes/641828dba51eba8da189bb9b
+Content-Type: application/json
+
+{
+    "content": "new note from Code",
+    "important": true
+}
+
+
